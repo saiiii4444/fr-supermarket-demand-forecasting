@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "supermarket_demand_forecasting"
+version = "0.1.0"
+description = "Demand forecasting pipeline for French supermarket chains using the Online Retail dataset"
+authors = ["Raju <raju@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "*"
+numpy = "*"
+scikit-learn = "*"
+statsmodels = "*"
+prophet = "*"
+matplotlib = "*"
+plotly = "*"
+dash = "*"
+click = "*"
+tqdm = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
